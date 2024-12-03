@@ -1,2 +1,2 @@
 # InfoVizFinal
-This is my personal website!
+Final for CS 4460
