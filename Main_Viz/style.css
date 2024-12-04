@@ -26,3 +26,8 @@ text.label {
     fill: #555;
     font-family: sans-serif;
 }
+
+.tooltip {
+    position: absolute;
+    pointer-events: none; 
+}
