@@ -236,7 +236,6 @@ d3.csv('Spotify_Youtube.csv', function(datum){
             .attr('height', d => 450 - y2Scale(d.value))
             .attr('fill', '#69b3a2');
 
-        // Exit
         bars.exit()
             .transition()
             .duration(500)
@@ -258,8 +257,6 @@ d3.csv('Spotify_Youtube.csv', function(datum){
     }
 
     updateBarplot(currentPoint);
-
-
 
 
 })
